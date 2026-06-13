@@ -155,10 +155,100 @@
 # print(f"{celsius_val} degreecelsius is equal to {fahrenheit_val} degreefahrenheit")
 
 
-def sum_of_primes(limit):
-    prime_sum = 0  
-    for num in range(2, limit + 1):
-        if all(num % i !=0 for i in range(2, int(num**0.5) + 1)):
-            prime_sum += num
-    return prime_sum
-print(f"the sum is:{sum_of_primes(100)}")        
+# def sum_of_primes(limit):
+#     prime_sum = 0  
+#     for num in range(2, limit + 1):
+#         if all(num % i !=0 for i in range(2, int(num**0.5) + 1)):
+#             prime_sum += num
+#     return prime_sum
+# print(f"the sum is:{sum_of_primes(100)}")        
+
+
+# num=5
+# count=0
+# for factor in range (1,num+1):
+#     if num %factor==0
+#     count = count + 1
+#     if count==2:
+#         print("prime")
+#     else:
+#         print("not prime")
+# # range =100
+# def sum_of_primes(limit):
+#     list=[]
+#     sum=0
+#     for number in range (1,range+1):
+#         count=0
+#         for factor in range (1,number+1):
+#             if number%factor == 0:
+#                count = count + 1
+#             if count==2:
+#                 list_append (number)
+#                 sum=sum+number
+#     return sum_of_primes
+# print("sum",) 
+            
+# x=lambda a,b: a+b
+# print(x(2,3))
+ 
+# x=lambda a: a**0.5
+# print(x(4))
+
+# x=lambda a: "even" if a%2==0 else "odd"
+# print(x(4))
+
+
+# x=lamda a:
+
+# class Student:
+#        def __init__(self,name,age,mark):
+#            self.name=name
+#            self.age=age
+#            self.mark=mark
+       
+# s1= Student("john",21,84)
+# s2= Student("james",23,94)
+#print(s1.name,s1.age,s1.mark)
+#print(s2.name,s2.age,s2.mark)
+
+
+
+# 
+
+# class Car:
+#   def __init__(self, brand, model, year):
+#     self.brand = brand
+#     self.model = model
+#     self.year = year
+
+#   def display_info(self):
+#     print(f"{self.year} {self.brand} {self.model}")
+
+# car1 = Car("Toyota", "Corolla", 2020)
+# car1.display_info()
+
+
+# class Person:
+#   def __init__(myobject, name, age):
+#     myobject.name = name
+#     myobject.age = age
+
+#   def greet(abc):
+#     print("Hello, my name is " + abc.name)
+
+# p1 = Person("Emil", 36)
+# p1.greet()
+
+class Student:
+       def __init__(self,name,age,mark):
+           self.name=name
+           self.age=age
+           self.mark=mark
+       def info (self):
+             return f"my name is {self.name} and my age is {self.age} and my mark is {self.mark}"   
+s1= Student("john",21,84)
+s2= Student("james",23,94)
+print(s1.name,s1.age,s1.mark)
+print(s2.name,s2.age,s2.mark)
+print(s1.info())
+print(s2.info())
